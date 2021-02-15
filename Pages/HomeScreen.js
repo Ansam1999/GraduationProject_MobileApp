@@ -15,7 +15,7 @@ function HomeScreen(props) {
                 <Icon name="location-outline" size={20} style={{marginRight:-50}}  />
                 <View style={{flexDirection:'column',alignItems:'center'}}>
             <Text style={{fontSize:20,color:'#8D9092'}}>Nablus</Text>
-            <Text style={{fontSize:16,color:'#8D9092'}}>An-Najah National University street</Text>
+            <Text style={{fontSize:17,color:'#8D9092'}}>An-Najah National University street</Text>
             </View>
             </View>
             </View>
