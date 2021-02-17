@@ -12,13 +12,23 @@ function Login(props) {
               <TouchableOpacity style={styles.button} onPress={()=>console.log('button touched')}>
                 <Text style={{fontSize:26,color:'#5876B9'}}>Log In </Text>
               </TouchableOpacity>
-              <Text style={{position:'absolute',top:280,fontSize:18,width:280}}>Don't have an account?  </Text>
-              <TouchableOpacity>
-                <Text style={{color:'white',marginTop:90,marginLeft:170,fontSize:22,color:'#5876B9'}}>Sign Up</Text>
+              <View style={{flexDirection:'column',marginTop:80,alignItems:'center'}}>
+           </View>   
+             <Text style={{fontSize:18}}>Don't have an account?  </Text>
+              <View style={{alignItems:'center',flexDirection:'row',justifyContent:'center',marginRight:-20}}>
+           
+                <Text style={{color:'white',fontSize:18,color:'black'}}>Sign Up as</Text>
+                <TouchableOpacity>
+                  <Text style={{color:'#5876B9',fontSize:22,marginLeft:10,fontWeight:'bold'}}>Parent</Text>
+                </TouchableOpacity>
+               <Text style={{fontSize:18,marginLeft:8,marginRight:8}}>-OR-</Text>
+               <TouchableOpacity>
+                <Text style={{color:'white',fontSize:22,color:'#5876B9',fontWeight:'bold'}}>Kindergarten</Text>
         
                </TouchableOpacity>
-               
-        </View>
+               </View>
+               </View>
+      
        
         </View>
      
@@ -27,8 +37,8 @@ function Login(props) {
 const styles = StyleSheet.create({
   Container:{
       position:'absolute',
-      top:322,
-      right:73,
+      top:325,
+      right:55,
       alignItems:'center',
       alignContent:'center',
       justifyContent:'center'
