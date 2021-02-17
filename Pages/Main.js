@@ -12,7 +12,7 @@ function Main(props) {
       <View style={{alignContent:'space-between',flexDirection:'row',width:250,marginTop:50}}>
           <Image style={{width:100,height:100}} source={require('../assets/favicon.png')}/>
           
-          <Text style={{marginLeft:60,fontSize:16,marginTop:15}} >Syrian kinder</Text>
+          <Text style={{marginLeft:60,fontSize:16.5,marginTop:15}} >Syrian kinder</Text>
       </View>
       </View>
     );
