@@ -28,7 +28,7 @@ function ParentAccount(props) {
 
                 <TextInput secureTextEntry={true} placeholder="  Repeat Your Password" style={[styles.Input,styles.font]} />
                 <TouchableOpacity style={styles.Button}>
-                    <Text style={{color:'white',fontSize:24.5}}>Sign Up </Text>
+                    <Text style={{color:'white',fontSize:24}}>Sign Up </Text>
                 </TouchableOpacity>
                         <Image style={styles.Image} source={require('../assets/cartoon.png')}/>
 
