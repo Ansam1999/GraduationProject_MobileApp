@@ -16,7 +16,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <Drawer.Navigator initialRouteName = 'Home'>
-        <Drawer.Screen name = 'Home' component ={Login} ></Drawer.Screen>
+        <Drawer.Screen name = 'Home' component ={KindergartenAccount} ></Drawer.Screen>
       </Drawer.Navigator>
     </NavigationContainer>
 
